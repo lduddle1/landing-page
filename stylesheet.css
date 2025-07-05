@@ -1,0 +1,115 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+    padding: 30px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-content h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cta,
+button {
+    background-color: #3882f6;
+}
+
+/* The above is general styling; the below is formatting */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+li {
+    flex: 1 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.main-content h2 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 200px;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.hero,
+.main-content,
+.quote,
+.cta,
+footer {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+
+
+
