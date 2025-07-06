@@ -10,7 +10,7 @@ body {
 }
 
 .hero,
-.footer {
+footer {
     background-color: #1F2937;
     padding: 30px 0;
 }
@@ -78,38 +78,100 @@ a {
 .hero-section {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+}
+
+.left-hero {
+    max-width: 50%;
 }
 
 .main-content h2 {
     text-align: center;
-    margin: 50px auto;
+    margin-top: 50px; 
+    margin-bottom: 75px;
 }
 
 .boxes {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
-    max-width: 200px;
+    flex-wrap: wrap;
+    gap: 30px;
     height: auto;
+    margin-bottom: 75px;
 }
 
 .box {
+    max-width: 150px;
+    text-align: center;
+}
+
+.box p {
+    margin-top: 3px; 
+}
+
+img {
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.quote {
+    padding: 20px;
+}
+
+.author {
+    text-align: right;
+    font-weight: 900;
+}
+
+footer {
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
 
 .hero,
 .main-content,
-.quote,
-.cta,
+.quote, 
 footer {
     padding-left: 300px;
     padding-right: 300px;
 }
 
+.cta {
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px;
+    padding: 50px 150px;
+}
 
+.heading {
+    font-size: 20px;
+    font-weight: 900;
+}
 
+.cta-left p {
+    margin: 5px auto;
+}
 
+button {
+    color: #f9faf8;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-1 {
+    border: none;
+}
+
+.button-2 {
+    border: solid #f9faf8 1px;
+}
 
