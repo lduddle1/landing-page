@@ -6,9 +6,12 @@ This assignemnt demonstrates my ability to write HTML and basic CSS, including f
 
 The photos used as placeholders are credited as below: 
 
-The hero's defauly image: 
-Photo by <a href="https://unsplash.com/@zengyili?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ZENG YILI</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-street-sign-in-front-of-a-building-CKVxwmrTOQo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<ul>
 
-The main-section's default image: 
-Photo by <a href="https://unsplash.com/@bhangy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Giuseppe Gallo</a> on <a href="https://unsplash.com/photos/text-ts9juN87Qig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<li>The hero's defauly image: 
+Photo by <a href="https://unsplash.com/@zengyili?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ZENG YILI</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-street-sign-in-front-of-a-building-CKVxwmrTOQo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
 
+<li>The main-section's default image: 
+Photo by <a href="https://unsplash.com/@bhangy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Giuseppe Gallo</a> on <a href="https://unsplash.com/photos/text-ts9juN87Qig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
+
+</ul>
