@@ -1,9 +1,12 @@
 body {
-    font-family: Roboto, sans-serif;
+/*Box model stuff*/
     margin: 0;
+/*Typography stuff*/
+    font-family: Roboto, sans-serif;
 }
 
 .logo {
+/*Typography stuff*/
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
@@ -11,32 +14,43 @@ body {
 
 .hero,
 footer {
-    background-color: #1F2937;
+/*Box model stuff*/
     padding: 30px 0;
+    background-color: #1F2937;
 }
 
 .hero-section h1 {
+/*Typography stuff*/
     font-size: 48px;
-    color: #f9faf8;
     font-weight: 900;
+    color: #f9faf8;
 }
 
 .hero-section p {
+/*Typography stuff*/
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .main-content h2 {
+/*Box model stuff*/
+    margin-bottom: 75px;
+    margin-top: 50px; 
+/*Typography stuff*/
     font-size: 36px;
-    color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    color: #1F2937;
 }
 
 .quote {
+/*Box model stuff*/
+    padding: 20px;
     background-color: #e5e7eb;
 }
 
 .quotation {
+/*Typography stuff*/
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -44,91 +58,101 @@ footer {
 
 .cta,
 button {
+/*Box model stuff*/
     background-color: #3882f6;
 }
 
-/* The above is general styling; the below is formatting */ 
-
 header {
+/*Display stuff*/
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+/*Box model stuff*/
     margin-bottom: 100px;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+/*Display stuff*/
     display: flex;
     flex: 1;
-    gap: 16px;
     flex-wrap: wrap;
+/*Box model stuff*/
+    margin: 0;
+    padding: 0;
+/*Miscellaneous*/
+    list-style: none;
+    gap: 16px;
 }
 
 li {
+/*Display stuff*/
     flex: 1 0 auto;
 }
 
 a {
+/*Typography stuff*/
     text-decoration: none;
     color: #e5e7eb;
 }
 
 .hero-section {
+/*Display stuff*/
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    margin-bottom: 75px;
     flex-wrap: wrap;
+    justify-content: space-between;
+/*Box model stuff*/
+    margin-bottom: 75px;
+/*Miscellaneous*/
+    gap: 50px;
 }
 
 .left-hero {
+/*Box model stuff*/
     max-width: 50%;
 }
 
-.main-content h2 {
-    text-align: center;
-    margin-top: 50px; 
-    margin-bottom: 75px;
-}
-
 .boxes {
+/*Display stuff*/
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-around;
+/*Box model stuff*/
     height: auto;
     margin-bottom: 75px;
+/*Miscellaneous*/
+    gap: 30px;
 }
 
 .box {
+/*Box model stuff*/
     max-width: 150px;
+/*Typography stuff*/
     text-align: center;
 }
 
 .box p {
+/*Box model stuff*/
     margin-top: 3px; 
 }
 
 img {
-    border-radius: 5px;
+/*Box model stuff*/
     border: solid black 1px;
-}
-
-.quote {
-    padding: 20px;
+    border-radius: 5px;
 }
 
 .author {
-    text-align: right;
+/*Typography stuff*/
     font-weight: 900;
+    text-align: right;
 }
 
 footer {
+/*Display stuff*/
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+/*Typography stuff*/
     color: #e5e7eb;
 }
 
@@ -136,42 +160,52 @@ footer {
 .main-content,
 .quote, 
 footer {
+/*Box model stuff*/
     padding-left: 300px;
     padding-right: 300px;
 }
 
 .cta {
-    border-radius: 10px;
-    color: #f9faf8;
+/*Display stuff*/
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+/*Box model stuff*/
     margin: 100px 150px;
     padding: 50px 150px;
+    border-radius: 10px;
+/*Typography stuff*/
+    color: #f9faf8;
 }
 
 .heading {
+/*Typography stuff*/
     font-size: 20px;
     font-weight: 900;
 }
 
 .cta-left p {
+/*Box model stuff*/
     margin: 5px auto;
 }
 
 button {
-    color: #f9faf8;
+/*Box model stuff*/
     padding: 7px 20px;
     border-radius: 5px;
-    font-weight: 600;
+/*Typography stuff*/
     font-size: 16px;
+    font-weight: 600;
+    color: #f9faf8;
 }
 
 .button-1 {
+/*Box model stuff*/
     border: none;
 }
 
 .button-2 {
+/*Box model stuff*/
     border: solid #f9faf8 1px;
 }
 
