@@ -15,3 +15,7 @@ Photo by <a href="https://unsplash.com/@zengyili?utm_content=creditCopyText&utm_
 Photo by <a href="https://unsplash.com/@bhangy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Giuseppe Gallo</a> on <a href="https://unsplash.com/photos/text-ts9juN87Qig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
 
 </ul>
+
+Thank you for visiting. 
+
+PS. I am very open to suggestions and criticisms for this assignment to better improve the responsiveness and best practices. 
